@@ -2,7 +2,7 @@
 flowchart TD
     Human["Human"]
 
-    Wallet["Guardian Agent\n(Digital Wallet)"]
+    Wallet["Guardian Agent(Digital Wallet)"]
 
     ID["Identity Credentials"]
     Keys["Keys & Permissions"]
