@@ -1,17 +1,16 @@
 ```mermaid
 flowchart TD
-    Human["Human Attention"]
+    Human["Human (Proof of Personhood)"]
+    Guardian["Guardian Agent (Singleton)"]
 
-    G1["Guardian Agent A"]
-    G2["Guardian Agent B"]
-    G3["Guardian Agent C"]
+    App1["Application / Service A"]
+    App2["Application / Service B"]
+    App3["Application / Service C"]
 
-    Human --> G1
-    Human --> G2
-    Human --> G3
+    Human --> Guardian
 
-    G1 -->|"Urgent!"| Human
-    G2 -->|"Priority!"| Human
-    G3 -->|"Act now!"| Human
+    Guardian -->|Delegates scoped access| App1
+    Guardian -->|Delegates scoped access| App2
+    Guardian -->|Delegates scoped access| App3
 
-    style Human fill:#fff2e6,stroke:#d86b1f,stroke-width:2px
+    style Guardian fill:#e6f2ff,stroke:#1f4fd8,stroke-width:2px
