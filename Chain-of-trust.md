@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    PoP["Proof of Personhood\n(Unique Human Root)"]
+    PoP["Proof of Personhood(Unique Human Root)"]
 
     Guardian["Primary Guardian Agent"]
 
