@@ -11,7 +11,7 @@ flowchart LR
     Attention -.-> Task3
 
     subgraph Note[" "]
-      N["Attention can switch,\nbut cannot truly split"]
-    end
+      N["Attention can switch, but cannot truly split"]
+    end 
 
     Note --- Attention
