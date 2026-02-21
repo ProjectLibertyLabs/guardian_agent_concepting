@@ -10,11 +10,11 @@ flowchart TD
     Inbound --> Guardian
 
     subgraph Audit["Cognitive Audit Functions"]
-        Nudge["Nudge Detection\n• Persuasive linguistics\n• Emotional manipulation\n• Dark patterns\n• Coercive framing"]
+        Nudge["Nudge Detection Persuasive linguistics Emotional manipulation Dark patterns Coercive framing"]
 
-        Priority["Prioritization\n• Ranked by individual's\n  declared priorities"]
+        Priority["Prioritization Ranked by individual's\n  declared priorities"]
 
-        Notes["Content Notes + Risk Summary\n• Misleading claims\n• Incorrect information\n• Potential fraud signals"]
+        Notes["Content Notes + Risk Summary Misleading claims Incorrect information Potential fraud signals"]
     end
 
     Guardian --> Nudge
